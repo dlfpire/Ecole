@@ -19,4 +19,3 @@ double fac(int n) {
 double result(int n, int m) { 
 	return fac(n) / (fac(n-m)*fac(m));
 }
-
