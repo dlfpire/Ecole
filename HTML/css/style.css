@@ -1,0 +1,262 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap');
+
+body {
+    background-color: #FAF3DD; 
+    color: #2f2f2f;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 16px;
+}
+
+section {
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    display: none;
+    /* visibility: hidden; */
+}
+
+h2, h3 {
+    font-family: sans-serif;
+}
+
+h2 {
+    margin: 20px 0 20px 0;
+    /* margin-bottom: 20px; 와 같음 */
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* ------------------ wrapper1 ---------------*/
+
+.wrapper1 {
+    background-color: white;
+    position:absolute;
+    right:10%;
+    top:20%;
+    padding-left: 35px;
+    z-index: 3;
+}
+
+.wrapper1 h2 {
+    visibility: hidden;
+}
+
+#info {
+    padding-bottom: 0;
+}
+
+#profile {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+table {
+    /* inline은 크기 지정을 못함 */
+    /* display: inline-block; */
+    border-collapse: collapse;
+    border-spacing: 0;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+th {
+    text-align: left;
+    padding-right: 20px;
+}
+
+th, td {
+    font-size: 15px;
+}
+
+#myname th{
+    /* display: none; */
+    visibility: hidden;
+}
+
+#myname td {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#contact {
+    padding-top: 0;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+ul li {
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+ul li::before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+ul li a {
+    padding-left: 10px;
+}
+
+/* ------------------ wrapper2 ---------------*/
+
+.wrapper2 {
+    background-color: #AED9E0;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    z-index: 1;
+    padding-right: 350px;
+}
+
+.wrapper2 h2 {
+    font-size: 80px;
+    color: white;
+}
+
+#project {
+    padding-top: 400px;
+}
+
+#project h2 {
+    font-size: 60px;
+    border-bottom: 1px solid white;
+}
+
+#project li:last-child {
+    border-bottom: none;
+}
+
+#project video {
+    width: 65%;
+}
+
+#project a {
+    color: black;
+    font-weight: bolder;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 2px 8px 2px 0; 
+    /* 위 오른쪽 아래 왼쪽 */
+}
+
+#project a:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 2px 8px;
+    transition: padding 0.2s;
+}
+
+/* ------------------ wrapper3 ---------------*/
+
+.wrapper3 {
+    background-color: #5E6472;
+    position: absolute;
+    left: 75%;
+    top: 0%;
+    padding: 60%;
+    z-index: 2;
+}
+
+/* ------------------ wrapper4 ---------------*/
+
+.wrapper4 {
+    background-color: #FFA69E;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    right: 40%;
+    z-index: 3;
+    padding: 50px 30px 50px 200px;
+    /* 위 오른쪽 아래 왼쪽 */
+}
+
+.wrapper4 h2 {
+    font-size: 50px;
+    color: black;
+}
+
+#skill ol {
+    list-style: none;
+    padding: 0;
+}
+
+#skill li {
+    display: inline-block;
+    color: #2f2f2f;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 4px 20px;
+}
+
+#skill li::before {
+    content: "#";
+}
+
+/* ------------------ wrapper5 ---------------*/
+
+.wrapper5 {
+    background-color: #F8E16C;
+    position: absolute;
+    top: 133%;
+    left: 50%;
+    right: 5%;
+    z-index: 3;
+}
+
+#site a {
+    color: black;
+    font-weight: bolder;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 2px 8px 2px 0; 
+}
+
+#site img {
+    width: 100%;
+}
+
+#site a:hover {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    padding: 2px 8px;
+    transition: padding 0.2s;
+}
+
+#copyright {
+    font-size: 10px;
+    padding-left: 10%;
+    padding-top: 120%;
+}
