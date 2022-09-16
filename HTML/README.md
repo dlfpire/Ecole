@@ -16,7 +16,7 @@
       top:20%;
       padding-left: 35px;
       z-index: 3;
-   }
+    }
     
     "position" 속성을 통해 요소를 배치함.
     부모 요소를 기준으로 배치하기 위해서 'absolute' 으로 지정함.
