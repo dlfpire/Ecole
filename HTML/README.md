@@ -7,13 +7,22 @@
    - HTML의 구조는 최대한 건들지 않고 CSS로 디자인
 
 ## ⭐코드⭐
-    - csszengardend 의 디자인을 참고하여 만들어보았습니다.
+    < csszengardend 의 디자인을 참고하여 만들어보았습니다. >
     
-    - "position" 속성을 통해 요소를 배치함.
+    .wrapper1 {
+      background-color: white;
+      position:absolute;
+      right:10%;
+      top:20%;
+      padding-left: 35px;
+      z-index: 3;
+   }
+    
+    "position" 속성을 통해 요소를 배치함.
     부모 요소를 기준으로 배치하기 위해서 'absolute' 으로 지정함.
     (relative : 자기 자신을 기준으로 배치)
     
-    - "z-index: n" 속성으로 요소들의 수직 위치를 정함.
+    "z-index: n" 속성으로 요소들의 수직 위치를 정함.
     position 속성을 이용하면 요소를 겹치게 놓을 수 있는데 z-index 속성의 숫자가 클수록 위로 올라오고,
     숫자가 작을 수록 아래로 내려간다.
     
