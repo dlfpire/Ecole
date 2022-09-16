@@ -5,12 +5,10 @@
 ## 내용
 HTML과 CSS를 사용하여 이력서 페이지 만들기
    - HTML의 구조는 최대한 건들지 않고 CSS로 디자인
-   - 
+
+## 코드
     
-## 참조
+### 참조
 - https://www.w3schools.com/cssref/css_selectors.asp
 - http://www.csszengarden.com/217/
 - https://ojji.wayful.com/2014/01/HTML-DIV-Layer-Position-Absolute-Relative-Z-index-Visibility.html
-
-## 기타
-- 간단한 `Git` 명령어 및 `Issue` 테스트 진행 아이디 → [ksyj8256](https://github.com/ksyj8256)
