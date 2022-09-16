@@ -7,7 +7,8 @@ HTML과 CSS를 사용하여 이력서 페이지 만들기
    - HTML의 구조는 최대한 건들지 않고 CSS로 디자인
 
 ## ⭐코드⭐
-csszengardend 의 디자인을 참고하여 만들어보았습니다.
+    - csszengardend 의 디자인을 참고하여 만들어보았습니다.
+    
     - "position" 속성을 통해 요소를 배치함.
     부모 요소를 기준으로 배치하기 위해서 'absolute' 으로 지정함.
     (relative : 자기 자신을 기준으로 배치)
