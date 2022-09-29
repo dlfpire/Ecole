@@ -16,3 +16,4 @@ public class b10757 {
 		System.out.println(A);
 	}
 }
+ 
