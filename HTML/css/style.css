@@ -37,7 +37,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: gold;
 }
 
 ol {
@@ -194,7 +193,7 @@ ul li a {
 .wrapper4 {
     background-color: #FFA69E;
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 0%;
     right: 40%;
     z-index: 3;
@@ -232,6 +231,7 @@ ul li a {
     top: 133%;
     left: 50%;
     right: 5%;
+    padding-top: 70px;
     z-index: 3;
 }
 
