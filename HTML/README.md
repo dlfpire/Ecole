@@ -1,5 +1,5 @@
 # 2022-Ecole-HTML-practice
-> https://dlfpire.github.io/Ecole/HTML/
+> https://dlfpire.github.io/Ecole/HTML
 
 0916-0917
 
