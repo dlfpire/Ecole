@@ -1,0 +1,160 @@
+body {
+    padding: 20px;
+    line-height: 1.35;
+    color: #1a1a1a;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+header {
+    border-bottom: #1a1a1a solid 1px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    border-top: #aaa solid 1px;
+    text-align: center;
+    color: #aaa;
+}
+
+section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article {
+    padding: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.content {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+
+}
+
+article:hover .content{
+    height: 100%;
+    opacity: 1;
+    transition: all 2s;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+article {
+    padding-bottom: 10px;
+}
+
+img, video, iframe {
+    width: 100%;
+    height: auto;
+}
+
+.bar {
+    background-color: #f6f6f6;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bar div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+    z-index: 1;
+}
+
+.bar span {
+    display: block;   
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: black;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+
+article:hover .content {
+    padding-bottom: 40px;
+    
+}
+
+/* 가로모드 */
+@media only screen and (orientation: landscape) {
+    section {
+        flex-direction: row;
+    }
+
+    article {
+        width: 25%;
+    }
+
+    .bar {
+        height: 12px;
+        width: 100%;
+    }
+
+    .bar div{
+        height: 12px;
+    }
+
+    article:hover .bar div{
+        width: 100%;
+        transition: width 2s;
+    }
+
+    article:hover .bar span {
+        left: 100%;
+        transition: left 2.4s;
+    }
+} 
+
+/* 세로모드이거나 일정 픽셀 이하 */
+@media only screen and (orientation: portrait), (max-width: 800px) {
+    section {
+        flex-direction: column;
+    }
+
+    article {
+        width: 100%;
+        position: relative;
+    }
+    .bar {
+        width: 12px;
+        height: 100%;
+    }
+
+    .bar div{
+        height: 12px;
+    }
+
+    article:hover .bar div{
+        height: 100%;
+        transition: height 4s;
+    }
+
+    article:hover .bar span {
+        top: 100%;
+        transition: top 4.3s;
+    }
+}
+
+/* media query : 화면에 맞춤
+container quary : 부모에 맞춤 */
